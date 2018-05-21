@@ -1,0 +1,251 @@
+@import "variables.scss";
+@import "normalize.scss";
+@import "accessibility.scss";
+@import "header.scss";
+@import "forms.scss";
+@import "footer.scss";
+@import "elementor.scss";
+// /---------------------------LISTS---------------------------------------------/
+// /-----------------------------------------------------------------------------/
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li>ul,
+li>ol {
+    margin-bottom: 0;
+    margin-left: .5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 1.5em 1.5em;
+}
+
+// /--------------------------- ENDLISTS---------------------------------------------/
+// /-----------------------------------------------------------------------------/
+#primary {
+    // /-----------------------------------------------------------------------------/
+    .hero {
+        h2 {
+            font-size: 90px;
+            color: #fff;
+        }
+        h3 {
+            @extend p;
+            color: $secondarycolor !important;
+            text-align: center;
+            background: $primarycolor;
+            max-width: 400px;
+            padding: 5px;
+            margin: auto;
+        }
+    }
+    .workgrid {}
+    .stat {
+        h3 {
+            font-size: 50px;
+            color: $primarycolor;
+            font-weight: 300;
+            margin: 0;
+        }
+        p {
+            @extend p;
+            color: $secondarycolor;
+            color: $primarycolor;
+            font-size: 16px;
+        }
+    }
+    // /-----------------------------------------------------------------------------/
+    .theteam {
+        background: $teritiarycolor;
+    }
+    .intro {
+        * {
+            color: $primarycolor;
+        }
+        h2 {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+        h3 {
+            font-size: 60px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .page-id-14 {
+        .intro {
+            background: $secondarycolor
+        }
+    }
+    .biopage {
+        background-color: #eee;
+        border-style: solid;
+        border-width: 20px 20px 0px 20px;
+        border-color: $secondarycolor;
+        h3,
+        h4,
+        h5,
+        p {
+            color: $primarycolor;
+        }
+        h3 {
+            line-height: 40px;
+            font-size: 26px;
+            font-weight: 300;
+        }
+        h2 {
+            @extend p;
+            color: $secondarycolor;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            strong {
+                color: $primarycolor;
+                font-size: 30px;
+            }
+        }
+    }
+    // /-----------------------------------------------------------------------------/
+    .stat {
+        padding: 0 20px;
+        background: $teritiarycolor;
+    }
+}
+
+// Branding and Design
+.elementor-page-292 .elementor-tabs-wrapper {
+    background: #b2f46b !important;
+    .elementor-tab-title {
+        color: #333 !important
+    }
+    .elementor-active.elementor-active {
+        color: $primarycolor !important;
+    }
+}
+
+.elementor-page-292 .stat {
+    background: #b2f46b !important;
+    h3,
+    p {
+        color: $primarycolor !important;
+    }
+}
+
+// Content Managment
+.elementor-page-302 .elementor-tabs-wrapper {
+    background: #57f2a7 !important;
+}
+
+// .elementor-page-302  .stat {
+// 	background: #000 !important;
+// 	h3,p {
+// 		color: #fff !important;
+// 	}
+// 	}
+// Web Design
+.elementor-page-287 .elementor-tabs-wrapper {
+    background: #ce3b96 !important;
+}
+
+// .elementor-page-287  .stat {
+// 	background: #ce3b96 !important;
+// 	h3,p {
+// 		color: #fff !important;
+// 	}
+// 	}
+// Social Media
+.elementor-page-281 .elementor-tabs-wrapper {
+    background: #aeba66 !important;
+}
+
+// .elementor-page-281  .stat {
+// 	background: #aeba66 !important;
+// 	h3,p {
+// 		color: $primarycolor !important;
+// 	}
+// 	}
+// Social Media
+.elementor-page-273 .elementor-tabs-wrapper {
+    background: #1c2c2d !important;
+}
+
+// .elementor-page-273  .stat {
+// 	background: #1c2c2d !important;
+// 	h3,p {
+// 		color: #fff !important;
+// 	}
+// 	}
+// ppc
+.elementor-page-265 .elementor-tabs-wrapper {
+    background: #47aeb7 !important;
+}
+
+// .elementor-page-265  .stat {
+// 	background: #47aeb7 !important;
+// 	h3,p {
+// 		color: #fff !important;
+// 	}
+// 	}
+// SEO
+.elementor-page-45 .elementor-tabs-wrapper {
+    background: #49a6d7 !important;
+}
+
+// .elementor-page-45  .stat {
+// 	background: #49a6d7 !important;
+// 	h3,p {
+// 		color: #fff !important;
+// 	}
+// 	}
+.home {
+    h3 {
+        color: $primarycolor;
+        font-weight: 100;
+        line-height: 45px;
+    }
+    p {
+        color: $primarycolor;
+    }
+}
+
+.flipbox {
+    h3 {
+        line-height: 20px;
+        color: $teritiarycolor !important;
+    }
+    .fa {
+        font-size: 28px;
+        color: #fff
+    }
+}
+
+#ouraddress {
+    background: #eee;
+    padding: 20px;
+    h2 {
+        font-size: 20px !important;
+    }
+    p {
+        margin: 0px !important;
+    }
+}
+
+#getintouch {
+    background: #d8372d;
+    padding: 20px;
+    p {
+        margin: 0px !important;
+    }
+    h2 {
+        font-size: 20px !important
+    }
+}

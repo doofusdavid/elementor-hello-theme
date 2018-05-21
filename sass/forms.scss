@@ -1,0 +1,62 @@
+
+@import "variables.scss";
+
+
+
+	// /-------------------------- Form Class------------------------------------/
+// /-----------------------------------------------------------------------------/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+input,
+textarea {
+	color: $primarycolor;
+	border:none !important;
+
+
+	&:focus {
+		color: $secondarycolor
+	}
+}
+
+select {
+	
+}
+
+textarea {
+	width: 100%;
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	
+	background: $secondarycolor;
+	color: rgba(0, 0, 0, .8);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+	}
+
+	&:active,
+	&:focus {
+	}
+}
+// /---------------------------End Form Class------------------------------------/
+// /-----------------------------------------------------------------------------/
+
